@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rogpeppe/go-internal/gotooltest"
-	"github.com/rogpeppe/go-internal/internal/os/execpath"
-	"github.com/rogpeppe/go-internal/testscript"
+	"github.com/01ne/go-internal/gotooltest"
+	"github.com/01ne/go-internal/internal/os/execpath"
+	"github.com/01ne/go-internal/testscript"
 )
 
 func TestMain(m *testing.M) {

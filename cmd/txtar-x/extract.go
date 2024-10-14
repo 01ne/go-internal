@@ -19,7 +19,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/rogpeppe/go-internal/txtar"
+	"github.com/01ne/go-internal/txtar"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rogpeppe/go-internal/fmtsort"
+	"github.com/01ne/go-internal/fmtsort"
 )
 
 var compareTests = [][]reflect.Value{

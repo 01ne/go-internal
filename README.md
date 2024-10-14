@@ -1,7 +1,7 @@
 This repository factors out an opinionated selection of internal packages and functionality from the Go standard
 library. Currently this consists mostly of packages and testing code from within the Go tool implementation.
 
-This repo is [primarily maintained](https://github.com/rogpeppe/go-internal/graphs/contributors) by long-time
+This repo is [primarily maintained](https://github.com/01ne/go-internal/graphs/contributors) by long-time
 [Go contributors](https://github.com/golang/go/contributors) who are also currently
 [maintaining CUE](https://github.com/cue-lang/cue/graphs/contributors) (which is primarily written in Go
 and which relies upon several of the packages here).
@@ -25,7 +25,7 @@ Our package will be replaced by it once https://github.com/golang/go/issues/5926
 
 ### testscript
 
-The most popular package here is the [testscript](https://pkg.go.dev/github.com/rogpeppe/go-internal/testscript) package:
+The most popular package here is the [testscript](https://pkg.go.dev/github.com/01ne/go-internal/testscript) package:
  * Provides a shell-like test environment that is very nicely tuned for testing Go CLI commands.
  * Extracted from the core Go team's internal testscript package ([cmd/go/internal/script](https://github.com/golang/go/tree/master/src/cmd/go/internal/script)),
  which is [heavily used](https://github.com/golang/go/tree/master/src/cmd/go/testdata/script) to test the `go` command.
@@ -33,10 +33,10 @@ The most popular package here is the [testscript](https://pkg.go.dev/github.com/
  * Integrates well with `go test`, including coverage support.
  * Inputs and sample output files can use the simple [txtar](https://pkg.go.dev/golang.org/x/tools/txtar)
  text archive format, also used by the Go playground.
- * Allows [automatically updating](https://pkg.go.dev/github.com/rogpeppe/go-internal/testscript#Params)
+ * Allows [automatically updating](https://pkg.go.dev/github.com/01ne/go-internal/testscript#Params)
  golden files.
  * Built-in support for Go concepts like build tags.
- * Accompanied by a [testscript](https://github.com/rogpeppe/go-internal/tree/master/cmd/testscript) command
+ * Accompanied by a [testscript](https://github.com/01ne/go-internal/tree/master/cmd/testscript) command
  for running standalone scripts with files embedded in txtar format.
  
  A nice introduction to using testscripts is this [blog post](https://bitfieldconsulting.com/golang/test-scripts) series.

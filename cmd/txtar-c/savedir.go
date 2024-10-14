@@ -22,7 +22,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/rogpeppe/go-internal/txtar"
+	"github.com/01ne/go-internal/txtar"
 )
 
 var flag = stdflag.NewFlagSet(os.Args[0], stdflag.ContinueOnError)

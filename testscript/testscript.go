@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rogpeppe/go-internal/imports"
-	"github.com/rogpeppe/go-internal/internal/misspell"
-	"github.com/rogpeppe/go-internal/internal/os/execpath"
-	"github.com/rogpeppe/go-internal/par"
-	"github.com/rogpeppe/go-internal/testenv"
-	"github.com/rogpeppe/go-internal/testscript/internal/pty"
-	"github.com/rogpeppe/go-internal/txtar"
+	"github.com/01ne/go-internal/imports"
+	"github.com/01ne/go-internal/internal/misspell"
+	"github.com/01ne/go-internal/internal/os/execpath"
+	"github.com/01ne/go-internal/par"
+	"github.com/01ne/go-internal/testenv"
+	"github.com/01ne/go-internal/testscript/internal/pty"
+	"github.com/01ne/go-internal/txtar"
 )
 
 var goVersionRegex = regexp.MustCompile(`^go([1-9][0-9]*)\.([1-9][0-9]*)$`)

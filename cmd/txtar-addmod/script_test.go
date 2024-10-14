@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rogpeppe/go-internal/goproxytest"
-	"github.com/rogpeppe/go-internal/gotooltest"
-	"github.com/rogpeppe/go-internal/testscript"
+	"github.com/01ne/go-internal/goproxytest"
+	"github.com/01ne/go-internal/gotooltest"
+	"github.com/01ne/go-internal/testscript"
 )
 
 var proxyURL string

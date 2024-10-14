@@ -1,6 +1,6 @@
-module github.com/rogpeppe/go-internal
+module github.com/01ne/go-internal
 
-go 1.22.0
+go 1.18
 
 require (
 	golang.org/x/mod v0.21.0
